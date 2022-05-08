@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.androidavanzado"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:7:5-25:19
+14        android:name="com.example.androidavanzado.App"
+14-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:8:9-28
+15        android:allowBackup="true"
+15-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/aec237d7615e5b5f19aac02e97eeb357/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.AndroidAvanzado" >
+23-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:14:9-53
+24        <activity
+24-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:15:9-24:20
+25            android:name="com.example.androidavanzado.view.MainActivity"
+25-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:16:13-46
+26            android:exported="true"
+26-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:17:13-36
+27            android:label="MainActivity" >
+27-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:18:13-41
+28            <intent-filter>
+28-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:20:17-69
+29-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:22:17-77
+31-->/Users/samuellopezlemasurier/AndroidStudioProjects/AndroidAvanzado/app/src/main/AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <service
+35-->[androidx.room:room-runtime:2.4.2] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/cca2cd51b36356c808e643537516e083/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+36            android:name="androidx.room.MultiInstanceInvalidationService"
+36-->[androidx.room:room-runtime:2.4.2] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/cca2cd51b36356c808e643537516e083/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+37            android:directBootAware="true"
+37-->[androidx.room:room-runtime:2.4.2] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/cca2cd51b36356c808e643537516e083/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+38            android:exported="false" />
+38-->[androidx.room:room-runtime:2.4.2] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/cca2cd51b36356c808e643537516e083/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.0.0] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/1bdca88ebac9582d03a2e0b002aaa769/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.0.0] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/1bdca88ebac9582d03a2e0b002aaa769/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+42            android:authorities="com.example.androidavanzado.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.0.0] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/1bdca88ebac9582d03a2e0b002aaa769/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/1bdca88ebac9582d03a2e0b002aaa769/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/1bdca88ebac9582d03a2e0b002aaa769/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/1bdca88ebac9582d03a2e0b002aaa769/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/1bdca88ebac9582d03a2e0b002aaa769/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/820b2b240fd5ed0ed96ea7fe618e8d85/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/820b2b240fd5ed0ed96ea7fe618e8d85/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/samuellopezlemasurier/.gradle/caches/transforms-3/820b2b240fd5ed0ed96ea7fe618e8d85/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+50        </provider>
+51    </application>
+52
+53</manifest>
